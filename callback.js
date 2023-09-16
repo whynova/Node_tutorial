@@ -1,0 +1,9 @@
+setTimeout(()=>{
+    console.log("pehla");
+    setTimeout(()=>{
+        console.log("second");
+        setTimeout(()=>{
+            console.log("third")
+        },3000);
+    },2000);
+},1000);
